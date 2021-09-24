@@ -12,6 +12,9 @@ body{
 
 .navbar-container{
     background-color: #262B37;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .about-container{
@@ -24,6 +27,9 @@ body{
 .orange-bg{
     background-color: #FF7F50;
 }
+.orange-bg:hover{
+    color: black!important;
+}
 .orange-bg-color{
     color: #FF7F50;
 }
@@ -35,4 +41,31 @@ body{
 }
 .project-container{
     background-color: #1ABC9C;
+}
+
+.form-container-color{
+    background-color: #474D5D;
+}
+
+.inner-form{
+    background-color: #585F73;
+}
+
+.footer{
+    background-color: #DE3163;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #585F73;
+}
+.circle:hover{
+   color: #DE3163;
+   background-color: #585F73;
 }
