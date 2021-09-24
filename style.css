@@ -3,7 +3,9 @@ body{
 }
 
 .banner-container{
-    background-color:#CACFD2;
+    background-image: url('assets/img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .banner-column{
